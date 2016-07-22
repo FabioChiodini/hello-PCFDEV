@@ -1,0 +1,8 @@
+---
+applications:
+- name: hello-PCFDEV-fabio
+  memory: 128M
+  buildpack: python_buildpack
+  domain: cfapps.io
+  command: python hello-PCFDEV.py
+timeout: 20
