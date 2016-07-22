@@ -17,6 +17,10 @@ GREEN = "#33CC33"
 
 COLOR = GREEN
 
+counterK = 0
+whoamiK = "NO ONE"
+ipK = "NO IP  DETECTED"
+
 @app.route('/')
 def hello():
         global counterK 
