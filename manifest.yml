@@ -4,5 +4,6 @@ applications:
   memory: 128M
   buildpack: python_buildpack
   #domain: cfapps.io
+  random-route: true
   command: python hello-PCFDEV.py
 timeout: 20
